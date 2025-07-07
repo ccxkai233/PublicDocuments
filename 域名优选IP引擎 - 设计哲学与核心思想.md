@@ -84,9 +84,9 @@ GFW虽然强大，但其运作必须服从于一个最高原则：避免对国�
 
 “大到不能封”（Too Big to Block）的现象在Cloudflare的客户列表中体现得淋漓尽致。封锁Cloudflare的核心IP段，将可能导致以下系统性重要领域的服务中断：
 
-*   **金融与支付：** shopify.com、www.visa.com、www.walmart.com、www.etsy.com。这些平台是全球电子商务和支付体系的重要组成部分，中断它们的服务将直接影响国际贸易和金融活动 ¹²。
-*   **科技与基础设施：** www.digitalocean.com、www.zoom.us、www.hubspot.com、www.npmjs.com、www.docker.com。这些是全球软件开发、企业协作和IT运营的命脉，封锁它们将严重打击依赖全球技术生态的中国企业的生产力 ²¹。
-*   **政府与国际组织：** fbi.gov、www.who.int（世界卫生组织）、www.tfl.gov.uk（伦敦交通局）。这些机构的网站虽然部分带有政治色彩，但更多是提供关键信息和公共服务的平台，封锁它们会引发不必要的外交摩擦和信息障碍 ¹²。
+*   **金融与支付：** shopify.com、www.visa.com、www.walmart.com、www.etsy.com。这些平台是全球电子商务和支付体系的重要组成部分，中断它们的服务将直接影响国际贸易和金融活动 。
+*   **科技与基础设施：** www.digitalocean.com、www.zoom.us、www.hubspot.com、www.npmjs.com、www.docker.com。这些是全球软件开发、企业协作和IT运营的命脉，封锁它们将严重打击依赖全球技术生态的中国企业的生产力 。
+*   **政府与国际组织：** fbi.gov、www.who.int（世界卫生组织）、www.tfl.gov.uk（伦敦交通局）。这些机构的网站虽然部分带有政治色彩，但更多是提供关键信息和公共服务的平台，封锁它们会引发不必要的外交摩擦和信息障碍 。
 
 由此可见，“信誉域名池”中的“信誉”一词，其本质并非道德层面的“良好”，而是“系统重要性”的代名词。该策略之所以有效，是因为我们借用了这些关键全球基础设施“大到不能封”的隐性光环。
 
